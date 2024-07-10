@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stack" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ChatApplication.LoginController">
+   <children>
+      <AnchorPane fx:id="pnmot" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="604.0" prefWidth="763.0">
+         <children>
+            <AnchorPane fx:id="pn21" layoutX="385.0" prefHeight="604.0" prefWidth="378.0" style="-fx-background-color: white;">
+               <children>
+                  <TextField fx:id="t0" focusTraversable="false" layoutX="83.0" layoutY="226.0" prefHeight="25.0" prefWidth="205.0" promptText="Entrer CNE" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <Label fx:id="label11" layoutX="79.0" layoutY="355.0" prefHeight="33.0" prefWidth="212.0">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="92.0" layoutY="522.0" mnemonicParsing="false" onAction="#valider" prefHeight="36.0" prefWidth="180.0" style="-fx-background-color: black; -fx-background-radius: 50;" text="Valider" textFill="WHITE">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="20.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="122.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@profile-icon-login-head-icon-vector.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="41.0" layoutX="42.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@profile-icon-login-head-icon-vector.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="41.0" layoutX="42.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@profile-icon-login-head-icon-vector.jpg" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="t01" focusTraversable="false" layoutX="83.0" layoutY="292.0" prefHeight="25.0" prefWidth="205.0" promptText="Entrer CIN" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <PasswordField fx:id="p1" layoutX="79.0" layoutY="363.0" prefHeight="25.0" prefWidth="212.0" promptText="Nouveau Mot de passe" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </PasswordField>
+                  <PasswordField fx:id="p2" layoutX="76.0" layoutY="425.0" prefHeight="25.0" prefWidth="212.0" promptText="Confirmer Mot de passe" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </PasswordField>
+                  <Label fx:id="label3" layoutX="76.0" layoutY="477.0" prefHeight="33.0" prefWidth="266.0" textFill="#e10e0e">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="36.0" fitWidth="41.0" layoutX="42.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@password-76.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="41.0" layoutX="42.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@password-76.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="-3.0" prefHeight="610.0" prefWidth="385.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="37.0" layoutY="263.0" prefHeight="47.0" prefWidth="299.0" text="Platforme PFE" textFill="WHITE">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="42.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pnsign" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="604.0" prefWidth="763.0">
+         <children>
+            <AnchorPane fx:id="pn2" layoutX="385.0" prefHeight="604.0" prefWidth="378.0" style="-fx-background-color: white;">
+               <children>
+                  <TextField fx:id="t1" focusTraversable="false" layoutX="87.0" layoutY="222.0" prefHeight="25.0" prefWidth="205.0" promptText="Nom d'utilisateur/CNE" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <PasswordField fx:id="t2" focusTraversable="false" layoutX="87.0" layoutY="308.0" prefHeight="25.0" prefWidth="205.0" promptText="Mot de passe/CIN" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </PasswordField>
+                  <Label fx:id="label1" layoutX="17.0" layoutY="355.0" prefHeight="33.0" prefWidth="349.0" textFill="#e80808">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="99.0" layoutY="461.0" mnemonicParsing="false" onAction="#connecte" prefHeight="36.0" prefWidth="180.0" style="-fx-background-color: black; -fx-background-radius: 50;" text="Se Connecter" textFill="WHITE">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="20.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="69.0" layoutY="400.0" onMouseClicked="#label2" prefHeight="36.0" prefWidth="241.0" text="Changer Mot de passe ?" underline="true">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="122.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@profile-icon-login-head-icon-vector.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="41.0" layoutX="42.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@profile-icon-login-head-icon-vector.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="41.0" layoutX="42.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@password-76.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="pn1" prefHeight="610.0" prefWidth="385.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="37.0" layoutY="263.0" prefHeight="47.0" prefWidth="299.0" text="Platforme PFE" textFill="WHITE">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="42.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import javafx.scene.control.Button?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.control.TableColumn?>-->
+<!--<?import javafx.scene.control.TableView?>-->
+<!--<?import javafx.scene.control.TextField?>-->
+<!--<?import javafx.scene.image.Image?>-->
+<!--<?import javafx.scene.image.ImageView?>-->
+<!--<?import javafx.scene.layout.AnchorPane?>-->
+<!--<?import javafx.scene.layout.StackPane?>-->
+<!--<?import javafx.scene.text.Font?>-->
+
+<!--<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chatapplication.LoginController">-->
+<!--   <children>-->
+<!--      <AnchorPane layoutY="116.0" prefHeight="461.0" prefWidth="208.0">-->
+<!--         <children>-->
+<!--            <Button fx:id="btnAcceuil" layoutX="47.0" layoutY="72.0" mnemonicParsing="false" onAction="#action" prefHeight="39.0" prefWidth="122.0" text="Acceuil" />-->
+<!--            <Button fx:id="btnPFE" layoutX="47.0" layoutY="153.0" mnemonicParsing="false" onAction="#action" prefHeight="39.0" prefWidth="122.0" text="PFE" />-->
+<!--            <Button fx:id="btnPlanification" layoutX="47.0" layoutY="233.0" mnemonicParsing="false" onAction="#action" prefHeight="39.0" prefWidth="122.0" text="Planification" />-->
+<!--            <Button fx:id="btnResultat" layoutX="47.0" layoutY="312.0" mnemonicParsing="false" onAction="#action" prefHeight="39.0" prefWidth="122.0" text="Résultat" />-->
+<!--            <Button fx:id="btnProfile" layoutX="47.0" layoutY="390.0" mnemonicParsing="false" onAction="#action" prefHeight="39.0" prefWidth="122.0" text="Profile" />-->
+<!--         </children>-->
+<!--      </AnchorPane>-->
+<!--      <AnchorPane layoutX="-2.0" prefHeight="123.0" prefWidth="761.0">-->
+<!--         <children>-->
+<!--            <TextField fx:id="t1" editable="false" layoutX="223.0" layoutY="35.0" prefHeight="39.0" prefWidth="262.0" style="-fx-background-radius: 50;" />-->
+<!--            <Label fx:id="l1" layoutX="553.0" layoutY="35.0" prefHeight="39.0" prefWidth="128.0" text="Non Prénom">-->
+<!--               <font>-->
+<!--                  <Font name="Cambria Bold Italic" size="22.0" />-->
+<!--               </font>-->
+<!--            </Label>-->
+<!--            <ImageView fx:id="image5" fitHeight="123.0" fitWidth="208.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true">-->
+<!--               <image>-->
+<!--                  <Image url="@imagespfe.png" />-->
+<!--               </image>-->
+<!--            </ImageView>-->
+<!--            <ImageView fx:id="image4" fitHeight="33.0" fitWidth="53.0" layoutX="492.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">-->
+<!--               <image>-->
+<!--                  <Image url="@imagesicone1.png" />-->
+<!--               </image>-->
+<!--            </ImageView>-->
+<!--            <ImageView fx:id="image3" fitHeight="80.0" fitWidth="63.0" layoutX="683.0" layoutY="22.0" pickOnBounds="true">-->
+<!--               <image>-->
+<!--                  <Image url="@imagespers.png" />-->
+<!--               </image>-->
+<!--            </ImageView>-->
+<!--         </children>-->
+<!--      </AnchorPane>-->
+<!--      <StackPane layoutX="197.0" layoutY="124.0">-->
+<!--         <children>-->
+<!--            <AnchorPane fx:id="pnPlan" layoutX="10.0" layoutY="10.0" prefHeight="378.0" prefWidth="549.0" style="-fx-background-color: white;">-->
+<!--               <children>-->
+<!--                  <TableView prefHeight="368.0" prefWidth="549.0">-->
+<!--                    <columns>-->
+<!--                      <TableColumn prefWidth="90.0" text="Etudiant" />-->
+<!--                      <TableColumn prefWidth="89.0" text="Encadrant" />-->
+<!--                        <TableColumn prefWidth="226.0" text="jurés">-->
+<!--                           <columns>-->
+<!--                              <TableColumn prefWidth="75.0" text="jury1" />-->
+<!--                              <TableColumn prefWidth="75.0" text="jury2" />-->
+<!--                              <TableColumn prefWidth="75.0" text="jury3" />-->
+<!--                           </columns>-->
+<!--                        </TableColumn>-->
+<!--                        <TableColumn prefWidth="74.0" text="Date" />-->
+<!--                        <TableColumn prefWidth="75.0" text="Salle" />-->
+<!--                    </columns>-->
+<!--                  </TableView>-->
+<!--                  <Button layoutX="377.0" layoutY="385.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="153.0" text="Télecharger" />-->
+<!--               </children>-->
+<!--            </AnchorPane>-->
+<!--            <AnchorPane fx:id="pnAcceuil" prefHeight="444.0" prefWidth="545.0" style="-fx-background-color: white;">-->
+<!--               <children>-->
+<!--                  <ImageView fx:id="image1" fitHeight="227.0" fitWidth="532.0" layoutX="9.0" layoutY="91.0" pickOnBounds="true">-->
+<!--                     <image>-->
+<!--                        <Image url="@slide-2.png" />-->
+<!--                     </image>-->
+<!--                  </ImageView>-->
+<!--                  <Label fx:id="l2" layoutX="58.0" layoutY="7.0" prefHeight="46.0" prefWidth="416.0" text="Bienvenue dans la plateforme PFE">-->
+<!--                     <font>-->
+<!--                        <Font name="Cambria Bold Italic" size="25.0" />-->
+<!--                     </font>-->
+<!--                  </Label>-->
+<!--               </children>-->
+<!--            </AnchorPane>-->
+<!--            <AnchorPane fx:id="pnPFE" prefHeight="438.0" prefWidth="545.0" style="-fx-background-color: white;">-->
+<!--               <children>-->
+<!--                  <Label layoutX="75.0" layoutY="20.0" prefHeight="39.0" prefWidth="470.0" text="Veuillez remplir les champs suivants : ">-->
+<!--                     <font>-->
+<!--                        <Font name="Cambria Bold Italic" size="25.0" />-->
+<!--                     </font>-->
+<!--                  </Label>-->
+<!--                  <Label layoutX="24.0" layoutY="99.0" prefHeight="39.0" prefWidth="227.0" text="Sujet de Stage : ">-->
+<!--                     <font>-->
+<!--                        <Font name="Cambria Bold Italic" size="24.0" />-->
+<!--                     </font>-->
+<!--                  </Label>-->
+<!--                  <Label layoutX="25.0" layoutY="195.0" prefHeight="39.0" prefWidth="122.0" text="Rapport :">-->
+<!--                     <font>-->
+<!--                        <Font name="Cambria Bold Italic" size="24.0" />-->
+<!--                     </font>-->
+<!--                  </Label>-->
+<!--                  <Label layoutX="14.0" layoutY="278.0" prefHeight="39.0" prefWidth="262.0" text="Attestation de Stage : ">-->
+<!--                     <font>-->
+<!--                        <Font name="Cambria Bold Italic" size="24.0" />-->
+<!--                     </font>-->
+<!--                  </Label>-->
+<!--                  <TextField editable="false" layoutX="251.0" layoutY="99.0" prefHeight="39.0" prefWidth="252.0" promptText="Sujet" style="-fx-background-radius: 50;" />-->
+<!--                  <Button layoutX="150.0" layoutY="194.0" mnemonicParsing="false" onMouseClicked="#get" prefHeight="39.0" prefWidth="227.0" text="Insérer le fichier">-->
+<!--                     <font>-->
+<!--                        <Font name="Cambria Bold Italic" size="22.0" />-->
+<!--                     </font>-->
+<!--                  </Button>-->
+<!--                  <Button layoutX="276.0" layoutY="277.0" mnemonicParsing="false" onMouseClicked="#get1" prefHeight="39.0" prefWidth="227.0" text="Insérer le fichier">-->
+<!--                     <font>-->
+<!--                        <Font name="Cambria Bold Italic" size="22.0" />-->
+<!--                     </font>-->
+<!--                  </Button>-->
+<!--                  <Button layoutX="310.0" layoutY="391.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="227.0" text="Envoyer">-->
+<!--                     <font>-->
+<!--                        <Font name="Cambria Bold Italic" size="22.0" />-->
+<!--                     </font>-->
+<!--                  </Button>-->
+<!--                  <Label fx:id="lab1" layoutX="388.0" layoutY="200.0" prefHeight="30.0" prefWidth="153.0" />-->
+<!--                  <Label fx:id="lab2" layoutX="275.0" layoutY="329.0" prefHeight="30.0" prefWidth="227.0" />-->
+<!--               </children>-->
+<!--            </AnchorPane>-->
+<!--         </children>-->
+<!--      </StackPane>-->
+<!--   </children>-->
+<!--</AnchorPane>-->
